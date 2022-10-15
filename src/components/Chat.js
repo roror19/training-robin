@@ -13,6 +13,7 @@ const Chat = () => {
                 <li>Créer un composant fonctionnel pour la partie qui va recevoir les messages</li>
                 <li>Lorsque l'on soumet le formulaire, mettre le contenu du texte de l'input dans la partie chat, positionné à droite</li>
                 <li>Lorsque l'on soumet le formulaire, mettre du contenu lorem ipsum, pour simuler une réponse, positionné à gauche</li>
+                <li>Lorsque l'on clique sur un nom dans la bar de gauche, son nom complet se met dans l'input au début du texte</li>
             </ol>
 
 
