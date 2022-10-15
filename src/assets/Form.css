@@ -1,0 +1,35 @@
+.Form {
+    background-color: crimson;
+    position: fixed;
+    bottom: 0;
+    left: 18vw;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+    margin: 0 50px;
+}
+
+input {
+    width: 60vw;
+    margin: 0 50px;
+}
+
+#send {
+    position: relative;
+    right: 22vw;
+    background-color: #000;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+ol {
+    border-bottom: 1px dotted #FFF;
+    padding-bottom: 30px;
+}

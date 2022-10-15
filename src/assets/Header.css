@@ -1,0 +1,20 @@
+.Header {
+    width: 100vw;
+    border-bottom: 1px solid #FFF;
+    height: 100px;
+    margin-left: 18vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555555;
+}
+
+#toggle {
+    height: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.Header h2 {
+    margin-right: 55vw;
+}

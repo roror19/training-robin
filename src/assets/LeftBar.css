@@ -1,0 +1,82 @@
+.LeftBar {
+    height: 100vh;
+    width: 18vw;
+    position: absolute;
+    top: 0;
+}
+
+.leftbar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #FFF;
+    background-color: #EEE;
+    border-radius: 12px;
+}
+
+.logo {
+    height: 100px;
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.leftbar-users {
+    height: 100%;
+    overflow-x: scroll;
+}
+
+.leftbar-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px dashed #FFF;
+}
+
+.leftbar-user img {
+    height: 60px;
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: springgreen;
+}
+
+.inactive {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: crimson;
+}
+
+::-webkit-scrollbar {
+    border-radius: 7px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 7px;
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
